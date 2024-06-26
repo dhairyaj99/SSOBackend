@@ -27,8 +27,6 @@
 		<url/>
 	</scm>
 	<properties>
-    <spring-security-kerberos-core-systemPath>C:\Users\PC Master DJ\Desktop\Learning\SSOBackend/lib/spring-security-kerberos-core-2.1.1-SNAPSHOT.jar</spring-security-kerberos-core-systemPath>
-    <spring-security-kerberos-web-systemPath>C:\Users\PC Master DJ\Desktop\Learning\SSOBackend/lib/spring-security-kerberos-web-2.1.1-SNAPSHOT.jar</spring-security-kerberos-web-systemPath>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
@@ -63,24 +61,6 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-        <groupId>org.springframework.security</groupId>
-        <artifactId>spring-security-ldap</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework.security.extensions</groupId>
-        <artifactId>spring-security-kerberos-core</artifactId>
-        <version>2.1.0.RELEASE</version>
-        <scope>system</scope>
-        <systemPath>${spring-security-kerberos-core-systemPath}</systemPath>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework.security.extensions</groupId>
-        <artifactId>spring-security-kerberos-web</artifactId>
-        <version>2.1.0.RELEASE</version>
-        <scope>system</scope>
-        <systemPath>${spring-security-kerberos-web-systemPath}</systemPath>
-    </dependency>
 	</dependencies>
 
 	<build>
